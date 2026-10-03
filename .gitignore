@@ -1,0 +1,36 @@
+# Nuxt dev/build outputs
+.nuxt
+.output
+dist
+.vercel
+.netlify
+.cloudflare
+
+# Node dependencies
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDEs and Tools
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Others
+coverage
