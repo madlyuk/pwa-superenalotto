@@ -1,0 +1,7 @@
+services:
+  frontend:
+    build: .
+    container_name: vibe_pwa_frontend
+    ports:
+      - "8080:80"
+    restart: unless-stopped
