@@ -6,6 +6,7 @@ export default defineNuxtConfig({
   // Rimuove l'SSR per un'integrazione SPA più semplice con l'Auth Django, oppure no.
   // Per ora manteniamo SSR = true di default in Nuxt.
   app: {
+    baseURL: '/superenalotto/',
     head: {
       title: 'VibeProject - Hub',
     }
