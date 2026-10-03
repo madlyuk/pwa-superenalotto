@@ -1,0 +1,19 @@
+{
+  "name": "vibe-nuxt",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^3.12.0",
+    "vue": "^3.4.0",
+    "vue-router": "^4.3.0",
+    "chart.js": "^4.4.0",
+    "vue-chartjs": "^5.2.0"
+  }
+}
